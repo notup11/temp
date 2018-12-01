@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config:ProjectConfig xmlns:config="http://www.tibco.com/XPD/projectConfig">
+  <projectDetails id="com.example.booksshopmy" version="0.0.0.qualifier">
+    <globalDestinations/>
+    <edition>bwe</edition>
+  </projectDetails>
+  <config:specialFolders>
+    <config:folder id="_FUBeoNdsEeiRCvlH1WdNxA" kind="com.tibco.amx.zion.schema" location="Schemas"/>
+    <config:folder id="_FUeKkNdsEeiRCvlH1WdNxA" kind="com.tibco.bw.process.folder" location="Processes"/>
+    <config:folder id="_FVhTcNdsEeiRCvlH1WdNxA" kind="wsdl" location="Service Descriptors"/>
+  </config:specialFolders>
+</config:ProjectConfig>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_G_IVkNdsEeiRCvlH1WdNxA" targetNamespace="http://tns.tibco.com/bw/composite/BooksShopMy" name="BooksShopMy" compositeext:version="0.0.0" compositeext:formatVersion="2">
+  <sca:service xmi:id="_CqqJQNgoEeiIKs4kbw93gg" name="Process" promote="ComponentProcess/Process">
+    <sca:interface.wsdl xmi:id="_CrFnENgoEeiIKs4kbw93gg" interface="http://www.BooksShopMy.org/wsdl/1540452603713#wsdl.interface(Process)" scaext:wsdlLocation="../Service%20Descriptors/UserService.wsdl"/>
+  </sca:service>
+  <sca:property xmi:id="_JDFxYNdsEeiRCvlH1WdNxA" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_JDrnQNdsEeiRCvlH1WdNxA" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_JD1YQNdsEeiRCvlH1WdNxA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_JESEMNdsEeiRCvlH1WdNxA" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_JFUmANdsEeiRCvlH1WdNxA" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_JFeXANdsEeiRCvlH1WdNxA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_JFxR8NdsEeiRCvlH1WdNxA" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_JF7C8NdsEeiRCvlH1WdNxA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_JGEz8NdsEeiRCvlH1WdNxA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_INowENdsEeiRCvlH1WdNxA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_INowEddsEeiRCvlH1WdNxA" processName="booksshopmy.Process"/>
+    <sca:service xmi:id="_CqhmYNgoEeiIKs4kbw93gg" name="Process">
+      <sca:interface.wsdl xmi:id="_CqjbkNgoEeiIKs4kbw93gg" interface="http://www.BooksShopMy.org/wsdl/1540452603713#wsdl.interface(Process)" scaext:wsdlLocation="../Service%20Descriptors/UserService.wsdl"/>
+    </sca:service>
+  </sca:component>
+</sca:composite>

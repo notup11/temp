@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename Operation from &apos;operation&apos; to &apos;getUser&apos;" description="Rename Operation from &apos;operation&apos; to &apos;getUser&apos;" flags="7" id="com.tibco.bw.core.design.refactoring.rename.operation" stamp="1540452869631"/>&#x0A;<refactoring comment="Rename resource &apos;BooksShopMy/Processes/booksshopmy/Process.bwp&apos; to &apos;UserServices.bwp&apos;" description="Rename resource &apos;Process.bwp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Processes/booksshopmy/Process.bwp" name="UserServices.bwp" stamp="1540453757780" updateReferences="true"/>
+</session>

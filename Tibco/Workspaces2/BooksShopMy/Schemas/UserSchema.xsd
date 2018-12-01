@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.BooksShopMy.org/schema/1540452603760" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="http://www.BooksShopMy.org/schema/1540452603760">
+  <element name="getUserRequest">
+    <complexType>
+      <sequence>
+        <element name="name" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+  <element name="getUserResponse">
+    <complexType>
+      <sequence>
+      	<element name="id" type="string" minOccurs="1" maxOccurs="1"></element>
+      	<element name="name" type="string" minOccurs="1" maxOccurs="1"/>
+      	<element name="password" type="string" minOccurs="0" maxOccurs="1"></element>
+      	<element name="emailAdress" minOccurs="0"
+      		maxOccurs="unbounded">
+      		<simpleType>
+      			<restriction base="string">
+      				<pattern value="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"></pattern>
+      			</restriction>
+      		</simpleType>
+      	</element>
+      </sequence>
+    </complexType>
+  </element>
+</schema>
